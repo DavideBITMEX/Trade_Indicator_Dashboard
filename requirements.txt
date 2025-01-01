@@ -6,3 +6,4 @@ geopandas
 pyproj
 shapely
 fiona
+folium
