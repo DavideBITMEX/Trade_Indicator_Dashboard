@@ -1,8 +1,5 @@
 # 🇪🇺 Trade Indicators: Data Pipeline and Dashboard
 
-## Overview
-This project demonstrates an end-to-end data pipeline and interactive dashboard, designed as a showcase of relevant skills for the Associate Data Engineer role at the United Nations. The pipeline and dashboard aim to highlight competencies in data ingestion, transformation, storage, and visualization.
-
 ### Key Features
 - **Data Ingestion:** Fetches trade indicator data dynamically from the World Bank API for all countries.
 - **Data Transformation:** Cleans and processes raw data into an analysis-ready format.
