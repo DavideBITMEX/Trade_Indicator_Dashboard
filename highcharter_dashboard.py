@@ -80,7 +80,7 @@ app.layout = html.Div([
 
         **Contact Information:** If you have any questions or would like to learn more, please reach out via email at 
         [davidebittellil@gmail.com](mailto:davidebittellil@gmail.com) or visit the
-        [GitHub Repository](https://your-website.com) of the project.
+        [GitHub Repository](https://github.com/DavideBITMEX/Trade_Indicator_Dashboard) of the project.
         """,
         style={"padding": "10px", "font-family": "Arial, sans-serif", "color": "#333", "line-height": "1.6", "height": "500px"}
     )

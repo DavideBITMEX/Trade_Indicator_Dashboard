@@ -1,20 +1,48 @@
-# UN Project: Data Pipeline and Dashboard
+# 🇪🇺 Trade Indicators: Data Pipeline and Dashboard
 
 ## Overview
-This project demonstrates an end-to-end data pipeline and dashboard designed for the Associate Data Engineer role at the UN. The pipeline:
-- Fetches trade indicator data from the World Bank API.
-- Cleans and stores the data in a SQLite database.
-- Visualizes the data using a Dash dashboard.
+This project demonstrates an end-to-end data pipeline and interactive dashboard, designed as a showcase of relevant skills for the Associate Data Engineer role at the United Nations. The pipeline and dashboard aim to highlight competencies in data ingestion, transformation, storage, and visualization.
+
+### Key Features
+- **Data Ingestion:** Fetches trade indicator data dynamically from the World Bank API for all countries.
+- **Data Transformation:** Cleans and processes raw data into an analysis-ready format.
+- **Data Storage:** Utilizes a SQLite database for lightweight and efficient data storage.
+- **Data Visualization:** Provides an interactive dashboard using Python's Dash framework, featuring:
+  - Time-series visualizations of trade data trends.
+  - Geospatial mapping of trade indicators.
+  - Top 10 country rankings based on export growth.
+
+## Technologies Used
+### **Programming and Frameworks:**
+- **Python 3.9+**: Core language for data processing, visualization, and API interactions.
+- **Dash**: Framework for building the interactive dashboard.
+- **Pandas**: Data manipulation and transformation.
+- **Geopandas**: Handling geospatial data for mapping.
+- **Folium**: Creating dynamic and interactive maps.
+- **Plotly**: Generating interactive visualizations.
+
+### **Data Storage:**
+- **SQLite**: Lightweight relational database used for storing cleaned trade indicator data.
+
+### **DevOps and Deployment:**
+- **Docker**: Containerized the application for consistent and reproducible environments.
+- **Render**: Cloud hosting service used for deploying the dashboard, ensuring global accessibility.
+
+### **Version Control:**
+- **Git**: For versioning and collaborative development.
+- **GitHub**: Repository hosting for project code and documentation.
+
+---
 
 ## Project Structure
-- `data_pipeline.py`: Fetches, cleans, and stores the data in SQLite.
-- `dash_app.py`: Dash application to visualize the data.
-- `Dockerfile`: Instructions to containerize the project.
-- `requirements.txt`: Python dependencies.
+```plaintext
+.
+├── data_pipeline.py         # Script for fetching, cleaning, and storing data in SQLite
+├── highcharter_dashboard.py # Dash application for data visualization
+├── Dockerfile               # Containerization instructions for the project
+├── requirements.txt         # List of Python dependencies
+├── data/                    # Folder containing geospatial shapefiles for mapping
+├── trade_data.db            # SQLite database storing processed trade indicator data
+├── README.md                # Project overview and setup instructions
+├── Setup_Instructions.md    # Detailed instructions for setting up and running the project
 
-## Steps to Run the Project
-
-### Local Environment
-1. Install Python 3.9+ and the required dependencies:
-   ```bash
-   pip install -r requirements.txt

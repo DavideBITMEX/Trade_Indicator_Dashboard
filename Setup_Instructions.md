@@ -38,6 +38,8 @@ This document provides detailed instructions to set up and run the project, incl
 
             pip install geopandas
             pip install folium
+            pip install dash-extensions
+
 
 
 
@@ -173,7 +175,7 @@ After completing your work, deactivate the virtual environment:
 ```bash
 deactivate
 ```
-
+Press Ctrl + C in the terminal where the dashboard is running to stop the current process.
 ---
 
 ## **Notes**
