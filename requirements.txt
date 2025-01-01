@@ -2,3 +2,8 @@ pandas
 requests
 dash
 plotly
+geopandas
+pyproj
+shapely
+fiona
+gdal

@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: Trade Indicator Dashboard
+    env: python
+    buildCommand: |
+      sudo apt-get update && sudo apt-get install -y gdal-bin python3-gdal libgdal-dev
+      pip install -r requirements.txt
+    startCommand: python3 highcharter_dashboard.py
