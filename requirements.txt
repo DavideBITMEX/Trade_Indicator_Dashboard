@@ -6,4 +6,3 @@ geopandas
 pyproj
 shapely
 fiona
-gdal
