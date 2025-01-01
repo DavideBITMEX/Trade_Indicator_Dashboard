@@ -1,5 +1,8 @@
 # 🇪🇺 Trade Indicators: Data Pipeline and Dashboard
 
+### Link to the Dashboard
+https://trade-indicator-dashboard.onrender.com
+
 ### Key Features
 - **Data Ingestion:** Fetches trade indicator data dynamically from the World Bank API for all countries.
 - **Data Transformation:** Cleans and processes raw data into an analysis-ready format.
